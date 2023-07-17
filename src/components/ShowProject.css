@@ -1,0 +1,12 @@
+.details img {
+    width: 80%;
+    border-radius: 10px;
+}
+.details {
+    margin: 20px;
+}
+.details svg {
+    font-size: 40px;
+    margin-top: 10px;
+    color: rgb(126, 32, 227);
+}

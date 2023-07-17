@@ -1,0 +1,77 @@
+.navbar {
+    width: 100%;
+    background-color: rgb(126, 32, 227);
+    padding: 20px 0px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    min-width: 50px;
+    margin: 0px;
+}
+.links {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.showLinks {
+    background-color: rgb(126, 32, 227);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.showLinks a {
+    color: aliceblue;
+}
+.nav-item {
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+}
+.nav-item:focus {
+    background-color: aliceblue;
+    color: blue;
+}
+.navbar a {
+    color: white;
+}
+.hide-menu {
+    display: none;
+}
+.show-menu {
+    display: block;
+}
+.navbar a:hover {
+    color: black;
+}
+.toggleButton {
+    display: none;
+}
+.toggleButton svg {
+    font-size: 40px;
+    background: none;
+    color: white;
+}
+.logo {
+    display: none;
+    padding-left: 10px;
+}
+@media screen and (max-width: 600px) {
+    .links {
+        display: none;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
+    .toggleButton {
+        display: block;
+        background: none;
+        color: white;
+    }
+    .logo {
+        display: block;
+        font-family: cursive;
+        color: white;
+    }
+}

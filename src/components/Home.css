@@ -1,0 +1,38 @@
+.prompt {
+    height: 100vh;
+    background-color: rgb(126, 32, 227);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+
+    color: white;
+}
+.home {
+    text-align: center;
+}
+.prompt h1 {
+    font-size: 3.2rem;
+}
+.skills .head {
+    font-size: 40px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+}
+.skills h1 {
+    color: rgb(126, 32, 227);
+}
+.item {
+    padding: 10px;
+    list-style-type: none;
+}
+.item h1 {
+    color: #a28089;
+}
